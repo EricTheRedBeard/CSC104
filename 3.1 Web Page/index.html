@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3 Assignment: Web Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Fundamentals of User-Centered Web Design</h1>
+        <p>A simple overview of essential usability principles and visual balance.</p>
+    </header>
+
+    <nav>
+        <a href="#concepts">Core Principles</a> | 
+        <a href="#elements">Design Elements</a> | 
+        <a href="#analysis">Browser Analysis</a>
+    </nav>
+
+    <main class="container">
+        
+        <section id="concepts" class="content-card">
+            <h2>The Importance of Hierarchy</h2>
+            <p>Effective web design guides the user's eyes to the most important information first. This is achieved through visual hierarchy, using size, contrast, and strategic spacing to give distinct weight to different elements on the page.</p>
+            <p>The primary goal is to create an intuitive layout structure where users can scan the page and find exactly what they need within a matter of seconds, without feeling overwhelmed by complex patterns.</p>
+        </section>
+
+        <section id="elements" class="content-card">
+            <h2>Key Usability Focus Areas</h2>
+            <p>Modern web designers focus heavily on keeping interfaces self-explanatory and accessible across devices:</p>
+            
+            <ul>
+                <li><strong>Clear Navigation Logic:</strong> Links and buttons should be prominent and intuitively placed so menus are effortless to navigate.</li>
+                <li><strong>Accessible Design Principles:</strong> High text-to-background contrast and scalable fonts ensure the site is readable for everyone.</li>
+                <li><strong>Responsive Formatting:</strong> Layout fluidly adapts to different display dimensions, from large computer screens to mobile devices.</li>
+            </ul>
+
+            <div class="image-container">
+                <img src="security cat.jpg" alt="A meme of a cat">
+                <span class="caption">Figure 1: Nobody listens to the cat until its too late.</span>
+            </div>
+        </section>
+
+        <section id="analysis" class="content-card">
+            <h2>Browser Presentation Analysis</h2>
+            <p>This table analyzes and documents how different web browsers render this specific layout, typography, background structure, and image handling.</p>
+            
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Browser Tested</th>
+                            <th>Rendering Engine</th>
+                            <th>Layout and Presentation Observations</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Google Chrome</strong></td>
+                            <td>Blink</td>
+                            <td>Card layouts and shadows render perfectly. The web design meme scales smoothly within its container when resized.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Mozilla Firefox</strong></td>
+                            <td>Gecko</td>
+                            <td>The internal sticky navigation bar performs smoothly. All CSS rules (margins, padding, colors) match spec.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Microsoft Edge</strong></td>
+                            <td>Blink</td>
+                            <td>Render profile is identical to Chrome. The local image is processed quickly and displayed cleanly.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+    </main>
+/* putting a copyright */
+    <footer>
+        <p>&copy; 2026 Eric Wait UAT assignment.</p>
+    </footer>
+
+</body>
+</html>
