@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume | Eric D. Wait</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="sub-page">
+<!--this section is for my navigation bar on the left side of the screen-->
+    <nav class="sidebar" id="sidebar">
+        <div class="menu-toggle" id="toggleBtn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <a href="index.html" class="nav-item" title="Home">
+            <i class="fa-solid fa-house"></i>
+        </a>
+        <a href="journey.html" class="nav-item" title="My Journey">
+            <i class="fa-solid fa-route"></i>
+        </a>
+        <a href="portfolio.html" class="nav-item" title="Portfolio">
+            <i class="fa-solid fa-folder"></i>
+        </a>
+        <a href="resume.html" class="nav-item active" title="Resume">
+            <i class="fa-solid fa-file-lines"></i>
+        </a>
+    </nav>
+<!--I feel this is pretty much self explanitory as its just a resume, included download link for the PDF version for ease of access-->
+    <main class="page-stream">
+        <header class="portfolio-header" style="width: 100%; max-width: 850px; display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 20px;">
+            <div>
+                <h1 class="stream-title">RESUME</h1>
+                <p class="stream-subtitle">Professional experience, core competencies, and academic milestones</p>
+            </div>
+            <a href="Eric_Wait_Resume.pdf" download="Eric_Wait_Resume.pdf" class="btn" style="flex: none; min-width: 240px; margin-top: 10px;">
+                <span>DOWNLOAD PDF</span>
+                <div class="btn-icon"><i class="fa-solid fa-download"></i></div>
+            </a>
+        </header>
+
+        <section class="stream-item">
+            <div class="stream-icon"><i class="fa-solid fa-user-shield"></i></div>
+            <div class="stream-date">Profile</div>
+            <h2 class="stream-heading">Professional Summary</h2>
+            <p class="stream-text">Ambitious Cybersecurity student specializing in network security, cloud infrastructure, and automation. Combines rigorous academic training with practical, hands-on experience designing and securing environments using Azure, Terraform, and Ubuntu. Proven ability to analyze vulnerabilities and implement defensive controls. Seeking to leverage strong technical fundamentals and a proactive problem-solving mindset in a challenging cybersecurity or network engineering role prior to upcoming graduation.</p>
+        </section>
+<!--strong tags used to put the inclosed text in bold format-->
+        <section class="stream-item">
+            <div class="stream-icon"><i class="fa-solid fa-sliders"></i></div>
+            <div class="stream-date">Technical Skills</div>
+            <h2 class="stream-heading">Core Competencies & Frameworks</h2>
+            <p class="stream-text">
+                <strong>Infrastructure & Automation:</strong> Terraform, Infrastructure as Code (IaC), CI/CD DevOps Pipelines, Git Version Control, Lua, Python.<br>
+                <strong>Cloud Services & Architectures:</strong> Microsoft Azure Administration, Identity and Access Management (IAM), Cloud Security Controls.<br>
+                <strong>Network Security & Defense:</strong> Network Segmentation, VLAN Routing, Firewall Rule Configuration, Perimeter Defense, System Hardening.<br>
+                <strong>Tools & Frameworks:</strong> Active Directory, PowerShell Scripting, SIEM Tool Monitoring, Linux/Windows Administration, Ubuntu, HTML5, CSS, JavaScript.
+            </p>
+        </section>
+
+        <section class="stream-item">
+            <div class="stream-icon"><i class="fa-solid fa-briefcase"></i></div>
+            <div class="stream-date">Jul 2022 - May 2026</div>
+            <h2 class="stream-heading">Developer/asset management — FiveM game servers (Freelance)</h2>
+            <p class="stream-text">
+                • Added and removed assets from the server when needed to manage environment updates dynamically.<br>
+                • Optimized server assets to significantly improve overall server stability and performance.<br>
+                • Led technical teams in assisting server users to ensure they consistently had the best experience possible.<br>
+                • Wrote customs assets and scripts to ensure diverse existing assets worked together seamlessly.
+            </p>
+            <div class="stream-tags">[Tools Used: #FiveM #Lua #JavaScript #AssetManagement #Optimization]</div>
+        </section>
+
+        <section class="stream-item">
+            <div class="stream-icon"><i class="fa-solid fa-briefcase"></i></div>
+            <div class="stream-date">Aug 2016 - Mar 2022</div>
+            <h2 class="stream-heading">Claims Adjuster — Asurion</h2>
+            <p class="stream-text">
+                • Handled complex escalated calls from team members and customers to assist by performing live structural reviews when applicable.<br>
+                • Investigated customer accounts to ensure terms of service were being honored and insurance eligibility criteria were strictly met.<br>
+                • Reviewed comprehensive system and account documentation sent in to verify authenticity and prevent fraudulent activity.<br>
+                • Acted as a dedicated peer advisor for new department agents, providing critical system knowledge and operational guidance.
+            </p>
+            <div class="stream-tags">[Tools Used: #Investigation #Documentation #TechSupport #Leadership]</div>
+        </section>
+
+        <section class="stream-item">
+            <div class="stream-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div class="stream-date">Graduation: Q1 2027</div>
+            <h2 class="stream-heading">Bachelor of Science in Cyber Security & Network Security</h2>
+            <p class="stream-text">University of Advancing Technology (UAT)<br>
+               <strong>Key Coursework:</strong> Perimeter Security Defense, Cloud Architecture Security, Incident Infrastructure Mapping, Advanced Network Routing, Scripting for Security Operations.</p>
+        </section>
+
+        <section class="stream-item">
+            <div class="stream-icon"><i class="fa-solid fa-award"></i></div>
+            <div class="stream-date">Certifications</div>
+            <h2 class="stream-heading">Industry Credentials & Verifications</h2>
+            <p class="stream-text">
+                • Licensed Insurance Adjuster — Asurion (2017-2023)<br>
+                • Network+ — Comptia (In Progress)<br>
+                • Security+ — Comptia (In Progress)<br>
+                • Candidate for Certification — Cloud Home Labs / Cloud Tech Techniques
+            </p>
+        </section>
+<!--a callback to my original center screen nav buttons to go back to the home page-->
+                <footer class="stream-footer">
+            <a href="index.html" class="btn-back">
+                <span class="btn-back-text">BACK TO HOME</span>
+                <div class="btn-back-icon"><i class="fa-solid fa-house"></i></div>
+            </a>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
